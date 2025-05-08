@@ -66,9 +66,9 @@ public class Main {
                     break;
                 case 2:
                     if(escolhaTipo == 1){
-                        opControler.listarOperadores().forEach(System:out::println);
+                        opControler.listarOperadores();
                     }else if(escolhaTipo == 2){
-                        supController.listarSupervisores().forEach(System:out::println);
+                        supController.listarSupervisores();
                 }
                     System.out.println("Escolha um usuario para deletar");
                     id = scanner.nextInt();
@@ -82,9 +82,9 @@ public class Main {
                     break;
                 case 3:
                     if(escolhaTipo == 1){
-                        opControler.listarOperadores().forEach(System:out::println);
+                        opControler.listarOperadores();
                     }else if(escolhaTipo == 2){
-                        supController.listarSupervisores().forEach(System:out::println);
+                        supController.listarSupervisores();
                     }
                     System.out.println("Escolha um usuario para atualizar");
                     id = scanner.nextInt();
@@ -112,9 +112,9 @@ public class Main {
                     break;
                 case 4:
                     if(escolhaTipo == 1){
-                        opControler.listarOperadores().forEach(System:out::println);
+                        opControler.listarOperadores();
                     }else if(escolhaTipo == 2){
-                        supController.listarSupervisores().forEach(System:out::println);
+                        supController.listarSupervisores();
                     }
                     break;
                 case 5:
